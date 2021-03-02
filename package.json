@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-getbrowserlist-bug",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Chris Santamaria <chris@santamaria.me>",
+  "dependencies": {
+    "gatsby": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "build:modern": "cross-env BROWSERSLIST_ENV=modern gatsby build",
+    "develop": "gatsby develop"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
