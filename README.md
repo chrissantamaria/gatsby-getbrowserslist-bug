@@ -2,6 +2,8 @@
 
 This repo displays a bug with Gatsby's `getBrowsersList` helper while using multi-environment Browserslist configs.
 
+See the [original issue](https://github.com/gatsbyjs/gatsby/issues/29943) for a more in-depth explanation.
+
 ## Reproduction Steps
 
 1. Clone the repo
